@@ -2,3 +2,12 @@
 *.cache
 SRPGMaker/bin/Debug/SRPGMaker.vshost.exe
 SRPGMaker/bin/Debug/SRPGMaker.vshost.exe.manifest
+SRPGMaker/bin/Debug/SRPGMaker.exe
+SRPGMaker/obj/Debug/SRPGMaker.AboutDialog.resources
+SRPGMaker/obj/Debug/SRPGMaker.csproj.FileListAbsolute.txt
+SRPGMaker/obj/Debug/SRPGMaker.exe
+SRPGMaker/obj/Debug/srpgmaker.exe.licenses
+SRPGMaker/obj/Debug/SRPGMaker.MainForm.resources
+SRPGMaker/obj/Debug/SRPGMaker.pdb
+SRPGMaker/obj/Debug/SRPGMaker.Properties.Resources.resources
+SRPGMaker/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll

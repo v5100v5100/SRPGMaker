@@ -32,26 +32,26 @@
             this.barManager = new DevExpress.XtraBars.BarManager(this.components);
             this.bar1 = new DevExpress.XtraBars.Bar();
             this.bar2 = new DevExpress.XtraBars.Bar();
+            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem5 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem6 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem7 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem8 = new DevExpress.XtraBars.BarSubItem();
+            this.skinBarSubItem2 = new DevExpress.XtraBars.SkinBarSubItem();
+            this.barSubItem9 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem11 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem_About = new DevExpress.XtraBars.BarSubItem();
             this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
             this.barLinkContainerItem1 = new DevExpress.XtraBars.BarLinkContainerItem();
             this.skinBarSubItem1 = new DevExpress.XtraBars.SkinBarSubItem();
-            this.barSubItem5 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem6 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem7 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem8 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem9 = new DevExpress.XtraBars.BarSubItem();
-            this.skinBarSubItem2 = new DevExpress.XtraBars.SkinBarSubItem();
             this.barSubItem10 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem11 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem12 = new DevExpress.XtraBars.BarSubItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,7 +81,7 @@
             this.skinBarSubItem2,
             this.barSubItem10,
             this.barSubItem11,
-            this.barSubItem12});
+            this.barSubItem_About});
             this.barManager.MainMenu = this.bar2;
             this.barManager.MaxItemId = 15;
             this.barManager.StatusBar = this.bar3;
@@ -110,6 +110,88 @@
             this.bar2.OptionsBar.MultiLine = true;
             this.bar2.OptionsBar.UseWholeRow = true;
             this.bar2.Text = "Main menu";
+            // 
+            // barSubItem1
+            // 
+            this.barSubItem1.Caption = "文件&F";
+            this.barSubItem1.Id = 0;
+            this.barSubItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem4)});
+            this.barSubItem1.Name = "barSubItem1";
+            // 
+            // barSubItem2
+            // 
+            this.barSubItem2.Caption = "新建";
+            this.barSubItem2.Id = 1;
+            this.barSubItem2.Name = "barSubItem2";
+            // 
+            // barSubItem3
+            // 
+            this.barSubItem3.Caption = "打开";
+            this.barSubItem3.Id = 2;
+            this.barSubItem3.Name = "barSubItem3";
+            // 
+            // barSubItem4
+            // 
+            this.barSubItem4.Caption = "关闭";
+            this.barSubItem4.Id = 3;
+            this.barSubItem4.Name = "barSubItem4";
+            // 
+            // barSubItem5
+            // 
+            this.barSubItem5.Caption = "编辑&E";
+            this.barSubItem5.Id = 6;
+            this.barSubItem5.Name = "barSubItem5";
+            // 
+            // barSubItem6
+            // 
+            this.barSubItem6.Caption = "视图&V";
+            this.barSubItem6.Id = 7;
+            this.barSubItem6.Name = "barSubItem6";
+            // 
+            // barSubItem7
+            // 
+            this.barSubItem7.Caption = "工具&T";
+            this.barSubItem7.Id = 8;
+            this.barSubItem7.Name = "barSubItem7";
+            // 
+            // barSubItem8
+            // 
+            this.barSubItem8.Caption = "设置&S";
+            this.barSubItem8.Id = 9;
+            this.barSubItem8.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.skinBarSubItem2)});
+            this.barSubItem8.Name = "barSubItem8";
+            // 
+            // skinBarSubItem2
+            // 
+            this.skinBarSubItem2.Caption = "皮肤";
+            this.skinBarSubItem2.Id = 11;
+            this.skinBarSubItem2.Name = "skinBarSubItem2";
+            // 
+            // barSubItem9
+            // 
+            this.barSubItem9.Caption = "帮助&H";
+            this.barSubItem9.Id = 10;
+            this.barSubItem9.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem11),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem_About)});
+            this.barSubItem9.Name = "barSubItem9";
+            // 
+            // barSubItem11
+            // 
+            this.barSubItem11.Caption = "查看帮助";
+            this.barSubItem11.Id = 13;
+            this.barSubItem11.Name = "barSubItem11";
+            // 
+            // barSubItem_About
+            // 
+            this.barSubItem_About.Caption = "关于SRPGMaker";
+            this.barSubItem_About.Id = 14;
+            this.barSubItem_About.Name = "barSubItem_About";
+            this.barSubItem_About.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barSubItem_About_ItemClick);
             // 
             // bar3
             // 
@@ -159,34 +241,6 @@
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4);
             this.barDockControlRight.Size = new System.Drawing.Size(0, 458);
             // 
-            // barSubItem1
-            // 
-            this.barSubItem1.Caption = "文件&F";
-            this.barSubItem1.Id = 0;
-            this.barSubItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem4)});
-            this.barSubItem1.Name = "barSubItem1";
-            // 
-            // barSubItem2
-            // 
-            this.barSubItem2.Caption = "新建";
-            this.barSubItem2.Id = 1;
-            this.barSubItem2.Name = "barSubItem2";
-            // 
-            // barSubItem3
-            // 
-            this.barSubItem3.Caption = "打开";
-            this.barSubItem3.Id = 2;
-            this.barSubItem3.Name = "barSubItem3";
-            // 
-            // barSubItem4
-            // 
-            this.barSubItem4.Caption = "关闭";
-            this.barSubItem4.Id = 3;
-            this.barSubItem4.Name = "barSubItem4";
-            // 
             // barLinkContainerItem1
             // 
             this.barLinkContainerItem1.Caption = "barLinkContainerItem1";
@@ -199,64 +253,11 @@
             this.skinBarSubItem1.Id = 5;
             this.skinBarSubItem1.Name = "skinBarSubItem1";
             // 
-            // barSubItem5
-            // 
-            this.barSubItem5.Caption = "编辑&E";
-            this.barSubItem5.Id = 6;
-            this.barSubItem5.Name = "barSubItem5";
-            // 
-            // barSubItem6
-            // 
-            this.barSubItem6.Caption = "视图&V";
-            this.barSubItem6.Id = 7;
-            this.barSubItem6.Name = "barSubItem6";
-            // 
-            // barSubItem7
-            // 
-            this.barSubItem7.Caption = "工具&T";
-            this.barSubItem7.Id = 8;
-            this.barSubItem7.Name = "barSubItem7";
-            // 
-            // barSubItem8
-            // 
-            this.barSubItem8.Caption = "设置&S";
-            this.barSubItem8.Id = 9;
-            this.barSubItem8.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.skinBarSubItem2)});
-            this.barSubItem8.Name = "barSubItem8";
-            // 
-            // barSubItem9
-            // 
-            this.barSubItem9.Caption = "帮助&H";
-            this.barSubItem9.Id = 10;
-            this.barSubItem9.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem11),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem12)});
-            this.barSubItem9.Name = "barSubItem9";
-            // 
-            // skinBarSubItem2
-            // 
-            this.skinBarSubItem2.Caption = "皮肤";
-            this.skinBarSubItem2.Id = 11;
-            this.skinBarSubItem2.Name = "skinBarSubItem2";
-            // 
             // barSubItem10
             // 
             this.barSubItem10.Caption = "barSubItem10";
             this.barSubItem10.Id = 12;
             this.barSubItem10.Name = "barSubItem10";
-            // 
-            // barSubItem11
-            // 
-            this.barSubItem11.Caption = "查看帮助";
-            this.barSubItem11.Id = 13;
-            this.barSubItem11.Name = "barSubItem11";
-            // 
-            // barSubItem12
-            // 
-            this.barSubItem12.Caption = "关于SRPGMaker";
-            this.barSubItem12.Id = 14;
-            this.barSubItem12.Name = "barSubItem12";
             // 
             // MainForm
             // 
@@ -300,7 +301,7 @@
         private DevExpress.XtraBars.SkinBarSubItem skinBarSubItem2;
         private DevExpress.XtraBars.BarSubItem barSubItem9;
         private DevExpress.XtraBars.BarSubItem barSubItem11;
-        private DevExpress.XtraBars.BarSubItem barSubItem12;
+        private DevExpress.XtraBars.BarSubItem barSubItem_About;
         private DevExpress.XtraBars.BarSubItem barSubItem10;
     }
 }

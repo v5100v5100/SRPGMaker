@@ -15,5 +15,10 @@ namespace SRPGMaker
         {
             InitializeComponent();
         }
+
+        private void barSubItem_About_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            new AboutDialog().Show();
+        }
     }
 }
